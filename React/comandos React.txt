@@ -1,0 +1,12 @@
+Crear un nuevo proyecto:
+  npx create-react-app nueva-app
+
+Para iniciar react:
+  npm start
+
+  npm test
+
+  npm run build
+
+  npm run eject
+  
