@@ -1,0 +1,19 @@
+/* Para la cabecera */
+
+header{
+    width: 96%;
+    height: 250px;
+    background-color: lightgray;
+    margin: 20px 20px 20px 20px ;
+    border: 2px inset black;
+}
+
+
+/* Para el pied de pagina */
+footer{
+    width: 96%;
+    height: 250px;
+    background-color: lightgray;
+    margin: 20px 20px 20px 20px ;
+    border: 2px inset black;
+}
