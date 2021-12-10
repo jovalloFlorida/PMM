@@ -1,6 +1,4 @@
 import React from 'react';
-import Enlace from './enlace';
-
 class Menu extends React.Component {
 
     constructor(props) {
@@ -35,19 +33,19 @@ class Menu extends React.Component {
                 <h2 onClick={this.handleMenuOnClick}>Menu</h2>
                 {this.state.estado && <ul id="Prueba" className="menu">
                     <li>
-                        <Enlace enlace={this.state.enlace1} nombre={this.state.busquedaGoogle} />
+                        <a href={this.state.enlace1} target="_blank" rel="noreferrer">{this.state.busquedaGoogle}</a>
                     </li>
                     <li>
-                        <Enlace enlace={this.state.enlace2} nombre={this.state.floridaOberta} />
+                        <a href={this.state.enlace2} target="_blank" rel="noreferrer">{this.state.floridaOberta}</a>
                     </li>
                     <li>
-                        <Enlace enlace={this.state.enlace3} nombre={this.state.bibliotecaReact} />
+                        <a href={this.state.enlace3} target="_blank" rel="noreferrer">{this.state.bibliotecaReact}</a>
                     </li>
                     <li>
-                        <Enlace enlace={this.state.enlace4} nombre={this.state.w3schools} />
+                        <a href={this.state.enlace4} target="_blank" rel="noreferrer">{this.state.w3schools}</a>
                     </li>
                     <li>
-                        <Enlace enlace={this.state.enlace5} nombre={this.state.javaScripts} />
+                        <a href={this.state.enlace5} target="_blank" rel="noreferrer">{this.state.javaScripts}</a>
                     </li>
 
                 </ul>}
