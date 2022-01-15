@@ -1,7 +1,7 @@
 Crear un nuevo proyecto:
   npx create-react-app nueva-app
 
-  Si no funciona
+code .  Si no funciona
 
     npx clear-npx-cache to clear your npx cache and then running the npx create-react-app your-app command.
 
