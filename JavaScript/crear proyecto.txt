@@ -1,0 +1,28 @@
+Crear un proyecto JavaScript basado en Node.js
+
+Desde dentro de la carpeta (c:/programacion/AP5), ejecutar en CMD:
+
+<<<<<<< HEAD
+*npm install readline-sync -g
+=======
+npm install readline-sync -g
+>>>>>>> AE01
+npm init
+npm install --save readline-sync
+
+
+<<<<<<< HEAD
+
+
+
+//
+const rl = require('readline-sync');
+
+let base = rl.questionInt("Introduce la base del triangulo: ");
+let altura = rl.questionInt("Introduce la altura del triangulo: ");
+
+area = ((base*2)+(altura*2));
+
+console.log(area);
+=======
+>>>>>>> AE01
