@@ -1,0 +1,77 @@
+.aplicacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    /*border:1px inset black;*/
+    }
+
+/* Para la cabecera */
+
+.cabecera{
+    width: 60%;
+    height: 150px;
+    font-size: 15px;
+    text-align: center;
+    /*border:1px inset black;*/
+}
+
+.imagenFondo{
+    height: 150px;
+    background: url("https://www.entorno-digital.com/images/cabeceras/web.png") no-repeat;
+}
+
+
+/* menu y contenido */
+
+.contenedor {
+    width: 70%;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+nav{
+    width: 40%;
+    text-align: center;
+    }
+
+ul {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration:none;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+
+}
+a:hover{
+    color: orangered;
+}
+
+.menu{
+    text-align: left;
+    padding-left: 30%;
+    /*visibility: hidden;*/
+}
+
+.contenido{
+    width: 60%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+
+/* Para el pied de pagina */
+
+.piePagina{
+    width: 60%;
+    background-color:rgb(130, 151, 172);
+    font-size: 15px;
+    text-align: right;
+    padding-right: 5%;
+}

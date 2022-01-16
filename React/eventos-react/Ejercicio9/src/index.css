@@ -1,0 +1,90 @@
+/* Para la cabecera */
+
+.encabezado{
+    width: 96%;
+    height: 250px;
+    background-color: lightgray;
+    margin: 20px 20px 20px 20px ;
+    border:4px inset black;
+}
+
+.encabezado img{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin: -191px 0px 0px 0px ;
+
+}
+
+.encabezado h1{
+    margin: 150px 0px 0px 0px ;
+    text-align: center;
+    text-decoration: black;
+}
+
+/* Para el contenedor principal */
+
+.principal{
+    width: 95%;
+    height: 900px;
+    background-color: white;
+    /*margin: 20px 20px 20px 20px ;*/
+    border:4px inset black;
+}
+/* Para el body */
+
+body{
+    padding:20px;
+    margin-left:auto;
+    margin-right: auto;
+    font-family:Arial;
+    font-size: 18px;
+    background-color:silver;
+}
+/* Para el contenido */
+
+.pagina{
+    width: 96%;
+    height: 580px;
+    background-color: D0FA58;
+    margin: 20px 20px 20px 20px;
+    border:4px inset black;
+    text-align:center;
+}
+
+table {
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Para la imagen */
+
+#caja { 
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg");
+    visibility: visible;           
+    width:100px; 
+    height:150px; 
+    transition: height 1s, width 1s, padding 1s, visibility 1s, opacity 0.5s ease-out;
+}
+
+#caja1 { 
+    background-image: url("https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900");
+    width:200px; 
+    height:200px;  
+    padding:0px;
+    color:#fff; 
+    position: relative;
+    left: 0px;
+}
+
+#caja2 { 
+    background-image: url("https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900");
+    width:200px; 
+    height:200px; 
+    padding:0px;
+    color:#fff; 
+    position: relative;
+    left: 0px;
+}

@@ -1,0 +1,26 @@
+header{
+    width: 1000px;
+    font-size: 35px;
+    margin:auto;
+    background-color:rgb(130, 151, 172);
+    padding:20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+body {
+    background-color: #efefef;
+    font-family: Arial;
+    color: #333;
+    line-height: 1.4em;
+    display: flex;
+}
+
+footer{
+    width: 1000px;
+    font-size: 35px;
+    margin:auto;
+    background-color:rgb(130, 151, 172);
+    padding:20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
