@@ -1,0 +1,7 @@
+npm install -g expo-cli – Instala Expo CLI 
+
+expo init hello-world - Crea una nueva app Expo 
+
+cd hello-world – Vamos a la carpeta hello-world
+
+npm star - para inciar la app
