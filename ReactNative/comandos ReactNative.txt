@@ -4,4 +4,12 @@ expo init hello-world - Crea una nueva app Expo
 
 cd hello-world – Vamos a la carpeta hello-world
 
-npm star - para inciar la app
+npm start - para inciar la app
+yarn start - para inciar la app
+
+ <<< Install in Expo project with NativeBase >>>
+
+expo init my-app --template expo-template-native-base-typescript
+
+npm start - para inciar la app
+yarn start - para inciar la app
